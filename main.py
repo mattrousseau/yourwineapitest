@@ -37,7 +37,7 @@ app = FastAPI()
 # Root endpoint
 @app.get("/")
 async def root():
-    return {"message": "Hello stranger! This API allow you to evaluate the quality of red wine. Go to the /docs for more details."}
+    return {"message": "Hello Matt! This API allow you to evaluate the quality of red wine. Go to the /docs for more details."}
 
 
 # define the predict endpoint
